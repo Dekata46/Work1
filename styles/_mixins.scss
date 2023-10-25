@@ -1,0 +1,17 @@
+@mixin click() {
+  transition: 0.3s;
+  cursor: pointer;
+
+  &:active {
+    transform: translateY(2px);
+  }
+}
+
+@mixin styleText {
+  font-family: $addfont;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: $grey;
+}
